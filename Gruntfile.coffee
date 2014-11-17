@@ -15,6 +15,7 @@ module.exports = (grunt)->
         files:
           'build/md.js': 'marked/marked.min.js'
           'build/style.css': 'github-markdown-css/github-markdown.css'
+          'build/chatwork_com.css': 'src/chatwork_com.css'
 
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-cson'

@@ -1,0 +1,6 @@
+.markdown-body ol {
+  list-style-type: disc;
+}
+.markdown-body ul {
+  list-style-type: decimal;
+}
