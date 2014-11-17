@@ -5,7 +5,7 @@ homepage_url: 'http://jgs.me'
 version: '0.1.0'
 manifest_version: 2
 content_scripts: [
-  matches: ['https://kcw.kddi.ne.jp/*']
+  matches: ['https://kcw.kddi.ne.jp/*', 'https://www.chatwork.com/*']
   js: ['md.js', 'index.js']
   css: ['style.css']
 ]
